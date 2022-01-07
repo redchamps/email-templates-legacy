@@ -1,0 +1,50 @@
+{
+    "name": "redchamps/module-email-templates-legacy",
+    "description": "This will allow to use email templates in legacy mode",
+    "type": "magento2-module",
+    "keywords": [
+        "php",
+        "magento",
+        "magento2"
+    ],
+    "homepage": "https://redchamps.com/easy-cache-clean-magento-2-extension.html",
+    "readme": "README.md",
+    "license": [
+        "OSL"
+    ],
+    "authors": [
+        {
+            "name": "RedChamps",
+            "email": "hello@redchamps.com",
+            "homepage": "https://redchamps.com/",
+            "role": "maintainer"
+        },
+        {
+            "name": "Ravinder",
+            "email": "rav@redchamps.com",
+            "homepage": "https://twitter.com/_iamRav",
+            "role": "maintainer"
+        }
+    ],
+    "support": {
+        "source": "https://github.com/redchamps/easy-cache-clean/",
+        "issues": "https://github.com/redchamps/easy-cache-clean/issues/"
+    },
+    "require": {
+        "magento/framework": "*"
+    },
+    "repositories": [
+        {
+            "type": "composer",
+            "url": "https://repo.magento.com/"
+        }
+    ],
+    "autoload": {
+        "files": [
+            "registration.php"
+        ],
+        "psr-4": {
+            "RedChamps\\EmailTemplatesLegacy\\": ""
+        }
+    }
+}
