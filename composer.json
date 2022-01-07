@@ -7,7 +7,7 @@
         "magento",
         "magento2"
     ],
-    "homepage": "https://redchamps.com/easy-cache-clean-magento-2-extension.html",
+    "homepage": "https://github.com/redchamps/email-templates-legacy/",
     "readme": "README.md",
     "license": [
         "OSL"
@@ -27,8 +27,8 @@
         }
     ],
     "support": {
-        "source": "https://github.com/redchamps/easy-cache-clean/",
-        "issues": "https://github.com/redchamps/easy-cache-clean/issues/"
+        "source": "https://github.com/redchamps/email-templates-legacy/",
+        "issues": "https://github.com/redchamps/email-templates-legacy/issues/"
     },
     "require": {
         "magento/framework": "*"
